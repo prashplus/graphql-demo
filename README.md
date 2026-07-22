@@ -42,6 +42,8 @@ When you start a demo (e.g. `npm run demo:01`), Apollo Server boots up on a loca
 
 No installation needed — just open the server URL in your browser and start querying.
 
+![Apollo Sandbox UI](images/image1.png)
+
 ## How a GraphQL Query Works
 
 Understanding the request/response flow is key to learning GraphQL:
