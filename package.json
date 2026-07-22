@@ -1,0 +1,27 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "Learn GraphQL from basics to intermediate concepts with hands-on demos",
+  "type": "module",
+  "scripts": {
+    "demo:01": "node demos/01-hello-world/index.js",
+    "demo:02": "node demos/02-types-and-schemas/index.js",
+    "demo:03": "node demos/03-queries-and-arguments/index.js",
+    "demo:04": "node demos/04-mutations/index.js",
+    "demo:05": "node demos/05-relationships/index.js",
+    "demo:06": "node demos/06-input-types-validation/index.js",
+    "demo:07": "node demos/07-subscriptions/index.js",
+    "demo:08": "node demos/08-pagination-filtering/index.js",
+    "demo:09": "node demos/09-error-handling/index.js",
+    "demo:10": "node demos/10-bookstore-api/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@graphql-tools/schema": "^10.0.0",
+    "express": "^4.21.0",
+    "graphql": "^16.10.0",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-ws": "^5.16.0",
+    "ws": "^8.18.0"
+  }
+}
